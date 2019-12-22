@@ -1,0 +1,17 @@
+@import "../../varibles.c";
+
+.game-end-page {
+  padding: 23px;
+  padding-bottom: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  height: 100%;
+  background-color: $page-color;
+
+  button{
+    margin: 20px;
+  }
+}

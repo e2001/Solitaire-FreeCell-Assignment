@@ -1,0 +1,18 @@
+.card-suite {
+  height: 100%;
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 3px;
+  font-size: 30px;
+
+  &.black{
+    color: black;
+  }
+  &.red{
+    color: red;
+  }
+}

@@ -1,0 +1,23 @@
+.card-container {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+
+
+  &.black{
+    color: black;
+  }
+  &.red{
+    color: red;
+  }
+
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75)
+}

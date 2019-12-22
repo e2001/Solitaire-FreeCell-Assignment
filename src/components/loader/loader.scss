@@ -1,0 +1,13 @@
+.loader-page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; //aligned in the cross axis
+  justify-content: center; //aligns flex items along the main axis
+}
+
+
+.loader{
+  width: 60px;
+}

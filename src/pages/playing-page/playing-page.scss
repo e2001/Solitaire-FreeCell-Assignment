@@ -1,0 +1,92 @@
+@import "../../varibles.c";
+
+.playing-page-container{
+  height: 97%;
+  width: 100%;
+  background-color: $page-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+
+.playing-page {
+  height: 100%;
+  width: 60%;
+  grid-template-rows: 1fr 3fr;
+  background-color: $board-color;
+  display: grid;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+  @media screen and (max-width: 1220px) {
+    width: 100%;
+  }
+}
+
+.upperboard{
+  align-items: stretch;
+  justify-items: stretch;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  @media screen and (max-width: 1220px) {
+    grid-template-columns: 1fr 0.7fr 1fr;
+  }
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr 0.2fr 1fr;
+  }
+
+  .mid-cell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 17px;
+    color: coral;
+    @media screen and (max-width: 1000px) {
+      font-size: 14px;
+    }
+  }
+
+}
+.lowerboard{
+  width: 100%;
+  align-self: stretch;
+  justify-self: stretch;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 20px;
+  align-content: space-evenly;
+}
+.free-cell-container{
+  width: 100%;
+  align-self: stretch;
+  justify-self: stretch;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 20px;
+  align-content: space-evenly;
+}
+.foundation-container{
+  width: 100%;
+  align-self: stretch;
+  justify-self: stretch;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 20px;
+  align-content: space-evenly;
+}

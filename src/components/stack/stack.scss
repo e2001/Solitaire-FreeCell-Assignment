@@ -1,0 +1,15 @@
+.stack-container {
+  height: 100px;
+  width: 60px;
+  user-select: none;
+  background-color: orange;
+  position: relative;
+
+  .card-wrapper{
+    height: 100px;
+    width: 60px;
+    position: absolute;
+    top:0;
+    right: 0;
+  }
+}
