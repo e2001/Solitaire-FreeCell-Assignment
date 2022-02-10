@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "prop-types": "^15.6.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-dnd": "^2.6.0",
     "react-dom": "^16.8.6",
